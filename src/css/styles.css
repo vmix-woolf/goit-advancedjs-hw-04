@@ -102,7 +102,8 @@
   box-shadow: 0 0 0 2px rgba(78, 117, 255, 0.2);
 }
 
-#search-form button {
+#search-form button,
+.load-more-btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4e75ff;
@@ -113,8 +114,12 @@
   transition: background-color 0.3s ease;
   font-family: inherit;
 }
-
-#search-form button:hover {
+.load-more-btn {
+  display: block;
+  margin: 20px auto;
+}
+#search-form button:hover,
+.load-more-btn:hover {
   background-color: #6c8cff;
 }
 
